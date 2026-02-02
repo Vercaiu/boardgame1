@@ -1,16 +1,18 @@
+# Visual Studio
+.vs/
+
+# Unity generated
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Bb]uild/
 [Bb]uilds/
-MemoryCaptures/
+[Ll]ogs/
+UserSettings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / C# project files
 *.csproj
-*.unityproj
 *.sln
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.mdb
