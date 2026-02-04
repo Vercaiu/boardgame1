@@ -1,4 +1,4 @@
-name: Upload Latest Build
+name: Upload Latest Build (Debug)
 
 on:
   workflow_dispatch:
@@ -13,14 +13,79 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      # -----------------------------
+      # DEBUG: Show repo contents
+      # -----------------------------
+      - name: Debug – list repo root
+        run: |
+          echo "=== Repo root ==="
+          ls -la
+
+      # -----------------------------
+      # DEBUG: Check builds folder
+      # -----------------------------
+      - name: Debug – list builds folder
+        run: |
+          echo "=== builds folder ==="
+          if [ -d builds ]; then
+            ls -la builds
+          else
+            echo "❌ builds folder DOES NOT EXIST"
+            exit 1
+          fi
+
+      # -----------------------------
+      # Find latest version
+      # -----------------------------
       - name: Find latest build version
         id: version
         run: |
           VERSION=$(ls builds | sort -V | tail -n 1)
+
+          if [ -z "$VERSION" ]; then
+            echo "❌ No version folders found in builds/"
+            exit 1
+          fi
+
+          echo "✅ Latest version found: $VERSION"
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
-      - name: Upload build artifact
+      # -----------------------------
+      # DEBUG: Check Windows build path
+      # -----------------------------
+      - name: Debug – verify Windows build path
+        run: |
+          BUILD_PATH="builds/${{ steps.version.outputs.version }}/Windows"
+          echo "=== Checking $BUILD_PATH ==="
+
+          if [ -d "$BUILD_PATH" ]; then
+            ls -la "$BUILD_PATH"
+          else
+            echo "❌ Windows build folder DOES NOT EXIST"
+            exit 1
+          fi
+
+      # -----------------------------
+      # TEST: Prove artifacts work
+      # -----------------------------
+      - name: Create test artifact
+        run: |
+          mkdir -p test-artifact
+          echo "Artifacts are working" > test-artifact/hello.txt
+
+      - name: Upload test artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Test-Artifact
+          path: test-artifact
+          if-no-files-found: error
+
+      # -----------------------------
+      # Upload real build
+      # -----------------------------
+      - name: Upload Windows build artifact
         uses: actions/upload-artifact@v4
         with:
           name: Windows-${{ steps.version.outputs.version }}
           path: builds/${{ steps.version.outputs.version }}/Windows
+          if-no-files-found: error
