@@ -1,0 +1,755 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a5c00b83ac5e324291f5fd5df678e62, type: 3}
+  m_Name: CardDatabase
+  m_EditorClassIdentifier: 
+  allCards:
+  - cardId: 0
+    spriteId: 0
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 4
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 1
+    cardName: 
+    snowgouleid: 1
+    signid: 0
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 2
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 4
+    moose: 0
+    bats: 2
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 3
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 4
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 0
+    spriteId: 4
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 5
+    moose: 0
+    bats: 1
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 5
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 5
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 6
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 6
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 7
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 1
+    moose: 1
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 0
+    spriteId: 8
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 2
+    moose: 1
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 9
+    cardName: 
+    snowgouleid: 1
+    signid: 0
+    trees: 1
+    moose: 1
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 10
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 1
+    moose: 2
+    bats: 0
+    fire: 2
+    geese: 0
+  - cardId: 0
+    spriteId: 11
+    cardName: 
+    snowgouleid: 1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 0
+    spriteId: 12
+    cardName: 
+    snowgouleid: 1
+    signid: 0
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 13
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 0
+    moose: 0
+    bats: 4
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 14
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 3
+    fire: 1
+    geese: 0
+  - cardId: 0
+    spriteId: 15
+    cardName: 
+    snowgouleid: 2
+    signid: 1
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 1
+  - cardId: 0
+    spriteId: 16
+    cardName: 
+    snowgouleid: 2
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 0
+    spriteId: 17
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 2
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 18
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 3
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 19
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 3
+    moose: 0
+    bats: 1
+    fire: 0
+    geese: 0
+  - cardId: 0
+    spriteId: 20
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 2
+    moose: 0
+    bats: 2
+    fire: 2
+    geese: 1
+  - cardId: 0
+    spriteId: 21
+    cardName: 
+    snowgouleid: 0
+    signid: 0
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 0
+    spriteId: 22
+    cardName: 
+    snowgouleid: 0
+    signid: 1
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 1
+    spriteId: 23
+    cardName: 
+    snowgouleid: 2
+    signid: 1
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 1
+    spriteId: 24
+    cardName: 
+    snowgouleid: 2
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 1
+    spriteId: 25
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 1
+  - cardId: 1
+    spriteId: 26
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 2
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 1
+  - cardId: 1
+    spriteId: 27
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 2
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 1
+    spriteId: 28
+    cardName: 
+    snowgouleid: 2
+    signid: 0
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 1
+    spriteId: 29
+    cardName: 
+    snowgouleid: 0
+    signid: 1
+    trees: 3
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 1
+    spriteId: 30
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 1
+    spriteId: 31
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 3
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 1
+    spriteId: 32
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 2
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 1
+    spriteId: 33
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 4
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 1
+    spriteId: 34
+    cardName: 
+    snowgouleid: 0
+    signid: 0
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 1
+    spriteId: 35
+    cardName: 
+    snowgouleid: 0
+    signid: 1
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 1
+    spriteId: 36
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 0
+    moose: 1
+    bats: 1
+    fire: 0
+    geese: 0
+  - cardId: 1
+    spriteId: 37
+    cardName: 
+    snowgouleid: 1
+    signid: 1
+    trees: 0
+    moose: 0
+    bats: 2
+    fire: 0
+    geese: 0
+  - cardId: 1
+    spriteId: 38
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 2
+    fire: 1
+    geese: 0
+  - cardId: 1
+    spriteId: 39
+    cardName: 
+    snowgouleid: 1
+    signid: 1
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 1
+    spriteId: 40
+    cardName: 
+    snowgouleid: 1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 2
+    fire: 1
+    geese: 0
+  - cardId: 2
+    spriteId: 41
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 2
+    spriteId: 42
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 1
+    fire: 0
+    geese: 0
+  - cardId: 3
+    spriteId: 43
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 3
+    spriteId: 44
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 0
+    moose: 0
+    bats: 1
+    fire: 0
+    geese: 1
+  - cardId: 3
+    spriteId: 45
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 1
+    moose: 0
+    bats: 1
+    fire: 0
+    geese: 0
+  - cardId: 3
+    spriteId: 46
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 1
+    moose: 0
+    bats: 2
+    fire: 0
+    geese: 0
+  - cardId: 3
+    spriteId: 47
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 4
+    spriteId: 48
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 1
+    moose: 1
+    bats: 0
+    fire: 2
+    geese: 0
+  - cardId: 4
+    spriteId: 49
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 1
+  - cardId: 4
+    spriteId: 50
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 4
+    spriteId: 51
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 4
+    spriteId: 52
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 1
+    fire: 0
+    geese: 0
+  - cardId: 3
+    spriteId: 53
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 3
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 5
+    spriteId: 54
+    cardName: 
+    snowgouleid: 2
+    signid: 0
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 5
+    spriteId: 55
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 2
+    geese: 0
+  - cardId: 5
+    spriteId: 56
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 1
+    moose: 0
+    bats: 2
+    fire: 0
+    geese: 0
+  - cardId: 5
+    spriteId: 57
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 2
+    geese: 2
+  - cardId: 5
+    spriteId: 58
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 1
+    moose: 1
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 5
+    spriteId: 59
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 1
+    moose: 1
+    bats: 0
+    fire: 0
+    geese: 1
+  - cardId: 5
+    spriteId: 60
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 5
+    spriteId: 61
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 5
+    spriteId: 62
+    cardName: 
+    snowgouleid: 1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 5
+    spriteId: 63
+    cardName: 
+    snowgouleid: 1
+    signid: 2
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 5
+    spriteId: 64
+    cardName: 
+    snowgouleid: 1
+    signid: 0
+    trees: 2
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 5
+    spriteId: 65
+    cardName: 
+    snowgouleid: 4
+    signid: 2
+    trees: 2
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 5
+    spriteId: 66
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 2
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 1
+  - cardId: 5
+    spriteId: 67
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 3
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 6
+    spriteId: 68
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 1
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 6
+    spriteId: 69
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 0
+  - cardId: 6
+    spriteId: 70
+    cardName: 
+    snowgouleid: -1
+    signid: 1
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 1
+    geese: 1
+  - cardId: 6
+    spriteId: 71
+    cardName: 
+    snowgouleid: -1
+    signid: 2
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 2
+    geese: 0
+  - cardId: 6
+    spriteId: 72
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 0
+    moose: 0
+    bats: 0
+    fire: 0
+    geese: 0
+  - cardId: 6
+    spriteId: 73
+    cardName: 
+    snowgouleid: -1
+    signid: 0
+    trees: 0
+    moose: 0
+    bats: 2
+    fire: 0
+    geese: 0

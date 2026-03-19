@@ -5,7 +5,7 @@ using System.IO;
 public class BuildScript
 {
     // Scenes to include in the build
-    private static string[] scenes = { "Assets/Scenes/Main.unity" };
+    private static string[] scenes = { "Assets/Scenes/Main.unity" , "Assets/Scenes/menu.unity" };
 
     // Base folder outside Assets with version
     private static string GetBuildFolder()
